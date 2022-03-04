@@ -63,6 +63,37 @@ img{
 @media screen and (max-width: 420px){
   .container.grey{
     background-color: #F2F2CD;
+    
   }
+  .row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin-top: 0;
+  }
+  h1{
+    width: 400px;
+    text-align: center;
+  }
+  #lezioni .row > .left, 
+  #lezioni .row > .right{
+  width: 39%;
+}
+#steps .row > .left,
+#steps .row > .central,
+#steps .row > .right{
+  
+  width: 39%;
+}
+#why .row > .first,
+#why .row > .second,
+#why .row > .third {
+  width: 39%;;
+  margin-top: 80px;
+}
+
+ 
+  
 }
 
